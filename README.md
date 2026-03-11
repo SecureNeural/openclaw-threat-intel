@@ -42,5 +42,5 @@ mkdocs serve
 Or with `uv`:
 
 ```bash
-uvx --from mkdocs mkdocs serve
+uvx --with mkdocs-material --with pymdown-extensions --from mkdocs mkdocs serve
 ```

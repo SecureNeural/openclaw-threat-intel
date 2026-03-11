@@ -3,7 +3,42 @@ site_description: Shared OpenClaw security knowledge base
 repo_url: https://github.com/SecureNeural/openclaw-threat-intel
 site_url: https://secureneural.github.io/openclaw-threat-intel/
 theme:
-  name: mkdocs
+  name: material
+  language: en
+  font: false
+  icon:
+    logo: material/shield-search
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: slate
+      primary: black
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.share
+    - toc.follow
+extra_css:
+  - stylesheets/armorer-ui.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.details
+  - pymdownx.blocks.tab:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
 nav:
   - Home: index.md
   - Findings:
