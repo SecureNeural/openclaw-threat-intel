@@ -1,5 +1,5 @@
 <div class="hero-shell">
-  <span class="hero-kicker">Armorer-style Intel Surface</span>
+  <span class="hero-kicker">Armorer UI inspired surface</span>
   <h1 class="hero-title">OpenClaw Threat Intel</h1>
   <p class="hero-lead">
     A shared, evidence-backed security knowledge base for OpenClaw attacks, exposures,
@@ -23,6 +23,20 @@
     <a class="md-button md-button--primary" href="findings/">Browse Findings</a>
     <a class="md-button" href="sources/">Inspect Sources</a>
     <a class="md-button" href="timelines/openclaw-security-timeline/">View Timeline</a>
+  </div>
+  <div class="terminal-panel">
+    <div class="terminal-head">
+      <span class="terminal-dot" style="background:#ef4444"></span>
+      <span class="terminal-dot" style="background:#f59e0b"></span>
+      <span class="terminal-dot" style="background:#22c55e"></span>
+      <span style="margin-left:.45rem">intel-session</span>
+    </div>
+    <div class="terminal-body">
+      <div><span class="terminal-prompt">$</span> retrieve latest openclaw exposure findings</div>
+      <div class="terminal-dim">[kb] resolved canonical finding: ClawJacked local API exposure</div>
+      <div class="terminal-dim">[kb] linked controls: gateway hardening baseline, scanner coverage</div>
+      <div class="terminal-ok">[ok] evidence graph loaded from findings/, controls/, and sources/</div>
+    </div>
   </div>
 </div>
 
