@@ -1,0 +1,55 @@
+site_name: OpenClaw Threat Intel
+site_description: Shared OpenClaw security knowledge base
+repo_url: https://github.com/SecureNeural/openclaw-threat-intel
+site_url: https://secureneural.github.io/openclaw-threat-intel/
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+  - Findings:
+      - Overview: findings/index.md
+      - Vulnerabilities:
+          - Overview: findings/vulnerabilities/index.md
+      - Exposures:
+          - Overview: findings/exposures/index.md
+          - ClawJacked Local API Exposure: findings/exposures/clawjacked-local-api-exposure-rce.md
+      - Incidents:
+          - Overview: findings/incidents/index.md
+          - Agent Overreach Into Sensitive Systems: findings/incidents/agent-overreach-sensitive-systems.md
+      - Malicious Skills:
+          - Overview: findings/malicious-skills/index.md
+  - Controls:
+      - Overview: controls/index.md
+      - Hardening:
+          - Overview: controls/hardening/index.md
+          - OpenClaw Gateway Security Baseline: controls/hardening/openclaw-gateway-security-baseline.md
+      - Detection:
+          - Overview: controls/detection/index.md
+      - Sandboxing:
+          - Overview: controls/sandboxing/index.md
+      - Scanners:
+          - Overview: controls/scanners/index.md
+          - ClawSec Scanner: controls/scanners/clawsec-scanner.md
+          - ClawSec Suite: controls/scanners/clawsec-suite.md
+  - Sources:
+      - Overview: sources/index.md
+      - Articles:
+          - Overview: sources/articles/index.md
+          - Oasis ClawJacked: sources/articles/oasis-clawjacked-2026-02-19.md
+          - Lukasz Olejnik on AI Agent Integration Risk: sources/articles/lukasz-olejnik-integrators-not-isolators-2026-02-02.md
+      - Advisories:
+          - Overview: sources/advisories/index.md
+      - Docs:
+          - Overview: sources/docs/index.md
+          - OpenClaw Gateway Security Docs: sources/docs/openclaw-gateway-security-docs.md
+      - Posts:
+          - Overview: sources/posts/index.md
+      - Repos:
+          - Overview: sources/repos/index.md
+          - ClawSec Releases and Skill Index: sources/repos/clawsec-releases-and-skill-index.md
+  - Timelines:
+      - OpenClaw Security Timeline: timelines/openclaw-security-timeline.md
+  - Taxonomies:
+      - Tags: taxonomies/tags.md
+      - Source Types: taxonomies/source-types.md
+      - Confidence Ratings: taxonomies/confidence-ratings.md
