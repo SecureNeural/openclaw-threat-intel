@@ -46,7 +46,9 @@ When the user wants to add new material:
    - create the canonical entry
    - create at least one source record
    - link them through `related`
-7. Update timeline entries only when the new item materially changes the chronology.
+7. If the item is newsworthy for subscribers, add it to `data/newsfeed.json`.
+8. Regenerate feed artifacts after newsfeed changes.
+9. Update timeline entries only when the new item materially changes the chronology.
 
 Do not create duplicate findings just because multiple posts mention the same issue.
 
@@ -100,10 +102,16 @@ Supported categories:
 Before finishing:
 
 1. Verify links and file placement.
-2. If docs changed materially, run:
+2. If the newsfeed changed, run:
+
+```bash
+python3 .codex/skills/openclaw-threat-intel/scripts/generate_newsfeed.py
+```
+
+3. If docs changed materially, run:
 
 ```bash
 uvx --from mkdocs mkdocs build
 ```
 
-3. Report what canonical entries and source records were added or updated.
+4. Report what canonical entries, source records, and feed items were added or updated.

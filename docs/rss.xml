@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>OpenClaw Threat Intel</title>
+    <link>https://secureneural.github.io/openclaw-threat-intel/</link>
+    <description>Curated OpenClaw threat intel newsfeed.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Supply-chain agent spawn campaign</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/sources/posts/pillar-agent-spawn-campaign-2026-03/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/sources/posts/pillar-agent-spawn-campaign-2026-03/</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[Post] Reported malicious extension campaign that launched coding agents with permissive flags to steal credentials.</description>
+    </item>
+    <item>
+      <title>Internal content leakage scenario</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/sources/posts/clawdint-internal-content-leak-2026-03/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/sources/posts/clawdint-internal-content-leak-2026-03/</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[Post] Community report showing how over-broad integrations can publish internal material externally.</description>
+    </item>
+    <item>
+      <title>Hebrew hardening prompt guidance</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/sources/posts/hebrew-openclaw-hardening-prompt-guidance/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/sources/posts/hebrew-openclaw-hardening-prompt-guidance/</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[Post] English-normalized community note on default risk, self-modification, and prompt-based hardening attempts.</description>
+    </item>
+    <item>
+      <title>Runtime guard tools roundup</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/sources/posts/hebrew-openclaw-runtime-guard-tools-roundup/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/sources/posts/hebrew-openclaw-runtime-guard-tools-roundup/</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[Post] English-normalized roundup covering Knostic Shield, OpenClaw Detect, and Capsule ClawGuard.</description>
+    </item>
+    <item>
+      <title>Endor Labs OpenClaw vulnerability set</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/findings/vulnerabilities/endorlabs-openclaw-vulnerability-set-2026-02/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/findings/vulnerabilities/endorlabs-openclaw-vulnerability-set-2026-02/</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Finding] Canonical record for the OpenClaw vulnerability cluster disclosed and validated by Endor Labs.</description>
+    </item>
+    <item>
+      <title>Endor Labs technical vulnerability details</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/sources/articles/endorlabs-six-openclaw-vulns-2026-02-18/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/sources/articles/endorlabs-six-openclaw-vulns-2026-02-18/</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Article] Technical follow-up focused on six disclosed OpenClaw vulnerabilities and exploitability.</description>
+    </item>
+    <item>
+      <title>Security engineer cheat sheet</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/controls/hardening/openclaw-security-engineers-cheat-sheet/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/controls/hardening/openclaw-security-engineers-cheat-sheet/</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Control] Operational hardening guidance, detection ideas, sandboxing references, and configuration recommendations.</description>
+    </item>
+    <item>
+      <title>Mass exposed OpenClaw instances</title>
+      <link>https://secureneural.github.io/openclaw-threat-intel/findings/exposures/mass-exposed-openclaw-instances-2026-02/</link>
+      <guid>https://secureneural.github.io/openclaw-threat-intel/findings/exposures/mass-exposed-openclaw-instances-2026-02/</guid>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Exposure] Large-scale internet exposure reporting, including vulnerable and reportedly exploitable deployments.</description>
+    </item>
+  </channel>
+</rss>

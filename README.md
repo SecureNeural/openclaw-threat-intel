@@ -30,6 +30,7 @@ Use it when you want Codex to:
 - ingest new sources into the right `finding`, `control`, or `source` path
 - normalize non-English material into English
 - scaffold new entries with the helper script
+- update the curated newsfeed and regenerate `rss.xml`
 
 ## Local Preview
 

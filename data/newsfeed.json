@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Endor Labs OpenClaw vulnerability set",
+    "date": "2026-02-18",
+    "type": "Finding",
+    "url": "findings/vulnerabilities/endorlabs-openclaw-vulnerability-set-2026-02/",
+    "summary": "Canonical record for the OpenClaw vulnerability cluster disclosed and validated by Endor Labs."
+  },
+  {
+    "title": "Endor Labs technical vulnerability details",
+    "date": "2026-02-18",
+    "type": "Article",
+    "url": "sources/articles/endorlabs-six-openclaw-vulns-2026-02-18/",
+    "summary": "Technical follow-up focused on six disclosed OpenClaw vulnerabilities and exploitability."
+  },
+  {
+    "title": "Mass exposed OpenClaw instances",
+    "date": "2026-02-09",
+    "type": "Exposure",
+    "url": "findings/exposures/mass-exposed-openclaw-instances-2026-02/",
+    "summary": "Large-scale internet exposure reporting, including vulnerable and reportedly exploitable deployments."
+  },
+  {
+    "title": "Security engineer cheat sheet",
+    "date": "2026-02-10",
+    "type": "Control",
+    "url": "controls/hardening/openclaw-security-engineers-cheat-sheet/",
+    "summary": "Operational hardening guidance, detection ideas, sandboxing references, and configuration recommendations."
+  },
+  {
+    "title": "Supply-chain agent spawn campaign",
+    "date": "2026-03-11",
+    "type": "Post",
+    "url": "sources/posts/pillar-agent-spawn-campaign-2026-03/",
+    "summary": "Reported malicious extension campaign that launched coding agents with permissive flags to steal credentials."
+  },
+  {
+    "title": "Internal content leakage scenario",
+    "date": "2026-03-11",
+    "type": "Post",
+    "url": "sources/posts/clawdint-internal-content-leak-2026-03/",
+    "summary": "Community report showing how over-broad integrations can publish internal material externally."
+  },
+  {
+    "title": "Hebrew hardening prompt guidance",
+    "date": "2026-03-11",
+    "type": "Post",
+    "url": "sources/posts/hebrew-openclaw-hardening-prompt-guidance/",
+    "summary": "English-normalized community note on default risk, self-modification, and prompt-based hardening attempts."
+  },
+  {
+    "title": "Runtime guard tools roundup",
+    "date": "2026-03-11",
+    "type": "Post",
+    "url": "sources/posts/hebrew-openclaw-runtime-guard-tools-roundup/",
+    "summary": "English-normalized roundup covering Knostic Shield, OpenClaw Detect, and Capsule ClawGuard."
+  }
+]
