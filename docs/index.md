@@ -105,3 +105,47 @@
     <span>Shared tags, source types, and confidence rules for consistent triage.</span>
   </a>
 </div>
+
+## How To Use This Site
+
+<div class="steps-list">
+  <div class="step-card"><strong>1</strong> Start with <a href="newsfeed/">Newsfeed</a> if you want the latest additions and operator-relevant changes.</div>
+  <div class="step-card"><strong>2</strong> Open <a href="findings/">Findings</a> when you need the canonical security takeaway, impact, and mitigation.</div>
+  <div class="step-card"><strong>3</strong> Open <a href="sources/">Sources</a> when you need the backing article, post, repo, or documentation record.</div>
+  <div class="step-card"><strong>4</strong> Use <a href="controls/">Controls</a> if the question is “what should we do about this?” rather than “what happened?”</div>
+</div>
+
+## Latest Feed
+
+<div class="feed-grid">
+  <a class="feed-item" href="findings/vulnerabilities/endorlabs-openclaw-vulnerability-set-2026-02/">
+    <div class="feed-meta"><span class="feed-badge">Finding</span> 2026-02-18</div>
+    <h3>Endor Labs vulnerability set</h3>
+    <p>Canonical record for the OpenClaw vulnerability cluster disclosed and validated by Endor Labs.</p>
+  </a>
+  <a class="feed-item" href="findings/exposures/mass-exposed-openclaw-instances-2026-02/">
+    <div class="feed-meta"><span class="feed-badge">Exposure</span> 2026-02-09</div>
+    <h3>Mass exposed OpenClaw instances</h3>
+    <p>Large-scale internet exposure reporting, including RCE-capable instances and vulnerable deployments.</p>
+  </a>
+  <a class="feed-item" href="controls/hardening/openclaw-security-engineers-cheat-sheet/">
+    <div class="feed-meta"><span class="feed-badge">Control</span> 2026-02</div>
+    <h3>Security engineer cheat sheet</h3>
+    <p>Operational hardening guidance, detection ideas, sandboxing references, and configuration recommendations.</p>
+  </a>
+  <a class="feed-item" href="sources/posts/pillar-agent-spawn-campaign-2026-03/">
+    <div class="feed-meta"><span class="feed-badge">Post</span> 2026-03</div>
+    <h3>Supply-chain agent spawn campaign</h3>
+    <p>User-supplied report of a malicious extension that launched coding agents with permissive flags to steal credentials.</p>
+  </a>
+  <a class="feed-item" href="sources/posts/hebrew-openclaw-runtime-guard-tools-roundup/">
+    <div class="feed-meta"><span class="feed-badge">Post</span> 2026-03</div>
+    <h3>Runtime guard tools roundup</h3>
+    <p>English-normalized community post covering Knostic Shield, OpenClaw Detect, and Capsule ClawGuard.</p>
+  </a>
+  <a class="feed-item" href="newsfeed/">
+    <div class="feed-meta"><span class="feed-badge">View</span> Latest</div>
+    <h3>Open the full newsfeed</h3>
+    <p>Chronological signal view that mixes findings, controls, and source additions for quick scanning.</p>
+  </a>
+</div>

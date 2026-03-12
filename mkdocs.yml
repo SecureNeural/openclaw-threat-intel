@@ -41,13 +41,17 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - Home: index.md
+  - Start Here: start-here.md
+  - Newsfeed: newsfeed/index.md
   - Findings:
       - Overview: findings/index.md
       - Vulnerabilities:
           - Overview: findings/vulnerabilities/index.md
+          - Endor Labs OpenClaw Vulnerability Set: findings/vulnerabilities/endorlabs-openclaw-vulnerability-set-2026-02.md
       - Exposures:
           - Overview: findings/exposures/index.md
           - ClawJacked Local API Exposure: findings/exposures/clawjacked-local-api-exposure-rce.md
+          - Mass Exposed OpenClaw Instances: findings/exposures/mass-exposed-openclaw-instances-2026-02.md
       - Incidents:
           - Overview: findings/incidents/index.md
           - Agent Overreach Into Sensitive Systems: findings/incidents/agent-overreach-sensitive-systems.md
@@ -58,10 +62,12 @@ nav:
       - Hardening:
           - Overview: controls/hardening/index.md
           - OpenClaw Gateway Security Baseline: controls/hardening/openclaw-gateway-security-baseline.md
+          - Security Engineer Cheat Sheet: controls/hardening/openclaw-security-engineers-cheat-sheet.md
       - Detection:
           - Overview: controls/detection/index.md
       - Sandboxing:
           - Overview: controls/sandboxing/index.md
+          - Action Gates and Runtime Guards: controls/sandboxing/action-gates-and-runtime-guards.md
       - Scanners:
           - Overview: controls/scanners/index.md
           - ClawSec Scanner: controls/scanners/clawsec-scanner.md
@@ -70,8 +76,12 @@ nav:
       - Overview: sources/index.md
       - Articles:
           - Overview: sources/articles/index.md
+          - Endor Labs AI SAST Initial Study: sources/articles/endorlabs-ai-sast-openclaw-2026-02-10.md
+          - Endor Labs Technical Vulnerability Details: sources/articles/endorlabs-six-openclaw-vulns-2026-02-18.md
           - Oasis ClawJacked: sources/articles/oasis-clawjacked-2026-02-19.md
+          - Exposed OpenClaw Instances Summary: sources/articles/infosecurity-openclaw-exposed-instances-2026-02-09.md
           - Lukasz Olejnik on AI Agent Integration Risk: sources/articles/lukasz-olejnik-integrators-not-isolators-2026-02-02.md
+          - Semgrep Cheat Sheet: sources/articles/semgrep-openclaw-security-engineers-cheat-sheet-2026-02.md
       - Advisories:
           - Overview: sources/advisories/index.md
       - Docs:
@@ -79,6 +89,11 @@ nav:
           - OpenClaw Gateway Security Docs: sources/docs/openclaw-gateway-security-docs.md
       - Posts:
           - Overview: sources/posts/index.md
+          - ClawSec Scanner Announcement: sources/posts/clawsec-scanner-announcement-2026-03.md
+          - Supply Chain Agent Spawn Campaign: sources/posts/pillar-agent-spawn-campaign-2026-03.md
+          - ClawdINT Internal Content Leak: sources/posts/clawdint-internal-content-leak-2026-03.md
+          - Hebrew OpenClaw Hardening Prompt Guidance: sources/posts/hebrew-openclaw-hardening-prompt-guidance.md
+          - Hebrew Runtime Guard Tools Roundup: sources/posts/hebrew-openclaw-runtime-guard-tools-roundup.md
       - Repos:
           - Overview: sources/repos/index.md
           - ClawSec Releases and Skill Index: sources/repos/clawsec-releases-and-skill-index.md
