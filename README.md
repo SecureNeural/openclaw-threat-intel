@@ -20,11 +20,13 @@ Use this rule consistently:
 
 Do not create duplicate findings because multiple people posted about the same issue.
 
-## Codex Skill
+## Agent Workflow
 
-This repo includes a local Codex skill at `.codex/skills/openclaw-threat-intel/`.
+This repo includes an agent-agnostic maintenance workflow packaged as a local Codex skill at `.codex/skills/openclaw-threat-intel/`.
 
-Use it when you want Codex to:
+The same workflow is suitable for Codex, OpenClaw, Claude Code, and similar coding agents because it relies on repository structure and scripts rather than Codex-only features.
+
+Use it when you want an agent to:
 
 - retrieve existing KB information from canonical entries and source records
 - ingest new sources into the right `finding`, `control`, or `source` path

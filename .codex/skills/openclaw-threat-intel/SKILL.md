@@ -5,6 +5,8 @@ description: Work inside the OpenClaw Threat Intel repository to retrieve knowle
 
 # OpenClaw Threat Intel
 
+This workflow is designed to be agent-agnostic. The `.codex/skills/` packaging is for Codex, but the operating model, scripts, and file conventions are intended to work equally well for OpenClaw, Claude Code, or any comparable coding agent.
+
 Use this skill when the task is to search, summarize, add, normalize, or structure information in this repository.
 
 ## Modes
